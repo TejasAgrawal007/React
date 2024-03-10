@@ -38,6 +38,20 @@ function Textarea() {
           LowerCase
         </button>
       </div>
+
+        <div className="container my-3">
+            <h1>Your Text Summery</h1>
+            <p>{text.split(" ").length} words and {text.length} characters</p>
+            <p>{0.08 * text.split(" ").length} Minutes to Read</p>
+
+            <h3>Preview</h3>
+
+            <code>
+                {text}
+            </code>
+
+        </div>
+
     </>
   );
 }
