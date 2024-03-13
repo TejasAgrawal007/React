@@ -40,19 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-
-ul{
-  display: flex;
-  
-}
-
-li{
-  margin-right: 26px;
-  list-style: none;
-  font-size: 20px;
-}
-
-a{
-  font-weight: bolder;
-}
