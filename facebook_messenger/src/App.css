@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+body {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 20%;
+}
